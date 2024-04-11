@@ -1,7 +1,7 @@
 body {
 	overflow: auto;
 	font-family: 'Century Gothic', sans-serif;
-	background-image: url(../img/geometry.jpg);
+	background-color: #FFFFDD;
 }
 
 #photoBooth {
@@ -10,7 +10,7 @@ body {
 	width: 650px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: white;
+	background-color: rgb(9, 84, 12);
 	border-radius: 2px;
 }	
 
