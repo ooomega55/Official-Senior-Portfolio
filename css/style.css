@@ -4,6 +4,14 @@ body {
 	background-color: #FFFFDD;
 }
 
+.bgabout{
+	background-color: #D2DE32;
+}
+
+.bgBar{
+	background-color: #FFFFDD;
+}
+
 /*Fischetti mode switch*/
 .switch {
 	position: relative;
