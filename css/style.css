@@ -1,7 +1,7 @@
 body {
 	overflow: auto;
 	font-family: 'Century Gothic', sans-serif;
-	background-color: #FFFFDD;
+	background-image: url("myImages/cityimage.jpg");
 }
 
 .bgabout{
