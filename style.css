@@ -3,8 +3,8 @@
   }
 
 body {
-	/*background-image: url("myImages/cityimage.jpg");*/
-	background-color: #BB9797;
+	background-image: url("myImages/cityimage.jpg");
+	background-color: black;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -21,7 +21,13 @@ body {
 	background-color: #FFFFDD;
 }
 
+.marginTopBot{
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+
 /*Fischetti mode switch*/
+/*https://www.youtube.com/watch?v=t_bRQ4ZkkFs*/
 .switch {
 	position: relative;
 	display: inline-block;
