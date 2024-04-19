@@ -46,11 +46,16 @@ body {
 	border-radius: 100%;
 }
 
-.cardBg {
-	background-color: #A2C579;
+.bg-card {
+  background-color: #A2C579!important;
 }
 
-
+.line-color {
+  background-color: #6F9246;
+  border-color: #43582a;
+  border-width: 5px;
+  border: bold;
+}
 
 
 
