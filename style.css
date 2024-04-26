@@ -57,6 +57,12 @@ body {
   border: bold;
 }
 
+.co-headline-reg{
+  font-family: "co-headline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 /*Fischetti mode switch*/
