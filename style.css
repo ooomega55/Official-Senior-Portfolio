@@ -75,6 +75,12 @@ body {
   font-style: normal;
 }
 
+.dico-sans {
+  font-family: "dico-sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 /*Fischetti mode switch*/
