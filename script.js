@@ -8,9 +8,14 @@ document.getElementById("toggleSwitch").onclick = function() {
       document.body.style.background = "#BB9797";
     } else {
       document.body.style.background = "black";
-    }
+    }  
 
   }
+
+  function handleOnChangeEvent(x) {
+    document.body.style.backgroundImage = "url('" + x + "')";
+}
+
 
 
   //code to make card carousel work

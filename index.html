@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/aza2jji.css">
   <link rel="stylesheet" href="https://use.typekit.net/aza2jji.css">
   <link rel="stylesheet" href="https://use.typekit.net/aza2jji.css">
+  <script type="text/javascript" src="jQuery.min.js"></script>
 </head>
 
 <body>
@@ -33,6 +34,7 @@
             <a class="nav-link" href="projects.html">Projects</a>
             <a class="nav-link" href="resume.html">Resume</a>
             <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="test.html">Test</a>
           </div>
         </div>
       </div>
@@ -40,7 +42,11 @@
 
     <div class="row navpad">
 
-      <div class="col p-2 mx-auto text-center">
+      <div class="wrapper">
+        <input type="checkbox" name="toggle" class="custom-toggle">
+      </div>
+
+     <!--<div class="col p-2 mx-auto text-center">
         <p>Fischetti Mode:</p>
         <label class="switch">
 
@@ -48,10 +54,19 @@
           <span class="slider round"></span>
         </label>
       </div>
-    </div>
+    </div>--> 
+
+  <!-- <div class="col p-2 mx-auto text-center">
+      <select onchange="handleOnChangeEvent(this.value)">
+        <option value="">Image</option>
+        <option value="myImages/fishmodeimage.jpg">Fischetti Mode</option>
+        <option value="myImages/cityimage.jpg">Normal</option>
+      </select>
+
+    </div>-->
 
 
-<!--Save link: https://www.youtube.com/watch?v=2KdKVfHm-rw-->
+<!--Save link, use for Fischetti mode: https://www.youtube.com/watch?v=2KdKVfHm-rw-->
 
 
     <div class="row">
@@ -293,6 +308,24 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <!--<script src="script.js"></script>-->
+  <script type="text/javascript">
+		
+		$(".custom-toggle").each(function (i){
+			var classes = $(this).attr("class"),
+			id = $(this).attr("id"),
+			name = $(this).attr("name");
+
+			$(this).wrap('<div class="custom-toggle" id="' + name + '"></div');
+			$(this).after('<label for="custom-toggle-' + i + '"></label>');
+			$(this).attr("id", "custom-toggle-" + i);
+			$(this).attr("name", name);
+
+		});
+
+		$(".custom-toggle input").change(function (){
+				$("body").toggleClass("green");
+		});
+	</script>
 </body>
 
 
