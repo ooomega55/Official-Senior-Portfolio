@@ -11,7 +11,9 @@
 
 body{
 	transition: background-color 0.4s ease-in-out;
-  background-image: url('myImages/cityimage.jpg');
+  	background-image: url('myImages/cityimage.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .wrapper{
@@ -86,6 +88,10 @@ body.green{
 
 .bgabout{
 	background-color: #D2DE32;
+}
+
+.bgabout.lime{
+	background-color: lime;
 }
 
 .bgBar{
