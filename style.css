@@ -16,6 +16,14 @@ body{
 	background-repeat: no-repeat;
 }
 
+.tinySwap{
+	color: black;
+}
+
+.tinySwap.colorSwap{
+	color: rgb(43, 255, 0);
+}
+
 .wrapper{
 	position: absolute;
 	top:30%;
@@ -93,6 +101,14 @@ body.green{
 .bgabout.lime{
 	background-color: lime;
 	color: rgb(38, 0, 255);
+}
+
+.card{
+	color: black;
+}
+
+.card.colorSwap{
+	color: greenyellow;
 }
 
 .bgBar{
