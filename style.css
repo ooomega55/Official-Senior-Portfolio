@@ -24,11 +24,15 @@ body{
 	color: rgb(43, 255, 0);
 }
 
-.wrapper{
-	position: absolute;
-	top:30%;
-	left:50%;
+.wrapperNum2{
+	position: relative;
+	top:20%;
+	left:60%;
 	transform: translate(-50%, 50%);
+}
+
+.fishMode{
+	color: darkred;
 }
 
 body.green{
@@ -348,7 +352,7 @@ Make it animate nicely. You'll need CSS3 for this*/
 
 /*card carousel code*/
 .senCard { 
-    display: flex; 
+    display:flex; 
     align-items: center; 
     justify-content: center; 
     min-height: 50vh; 
