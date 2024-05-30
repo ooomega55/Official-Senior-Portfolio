@@ -109,6 +109,10 @@ body.green{
     padding-top: 85px;
   }
 
+.navbottom {
+	padding-bottom: 85px;
+}
+
 .nav-link:hover {
 	transition-duration: 0.5s;
 	background-color: #7cce1f;
