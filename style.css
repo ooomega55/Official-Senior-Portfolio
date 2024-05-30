@@ -32,7 +32,8 @@ body{
 }
 
 .fishMode{
-	color: darkred;
+	color: rgb(109, 0, 0);
+	font-weight: bold;
 }
 
 body.green{
@@ -87,7 +88,17 @@ body.green{
 	background-color: #2196f3;
 }
 
+.aboutImgBorder{
+	border: 5px solid;
+  	border-image: linear-gradient(to bottom, #203e5e, #6db5ca) 1;
+  	cursor: pointer;
+}
 
+.aboutImgBorder:hover{
+	border: 5px solid;
+	border-image: linear-gradient(to bottom, navy, #abdceb) 1;
+	cursor: pointer;
+}
 
 /*Separate*/
 
