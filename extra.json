@@ -41,24 +41,6 @@
             "imgLocation": "Kaanapali",
             "description": "View of ocean in Maui",
             "date": "07/12/2019"
-        },
-        {
-            "imgPath": "vacationImages/seal.jpg",
-            "imgLocation": "Sea Life Park",
-            "description": "Smiling seal",
-            "date": "07/05/2019"
-        },
-        {
-            "imgPath": "vacationImages/maui.jpg",
-            "imgLocation": "Maui",
-            "description": "Coastline of Maui",
-            "date": "07/07/2019"
-        },
-        {
-            "imgPath": "vacationImages/pearlharbor.jpg",
-            "imgLocation": "Pearl Harbor",
-            "description": "Pearl Harbor",
-            "date": "07/03/2019"
         }
   ]
 }
