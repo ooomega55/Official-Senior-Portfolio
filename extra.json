@@ -1,22 +1,22 @@
 {
     "images": [
         {
-            "imgPath": "vacationImages/hawaiian-islands.jpg",
-            "imgLocation": "Hawaii",
-            "description": "Hawaii's main island coastline",
-            "date": "None"
+            "imgPath": "myImages/slides/stadiumseries.jpg",
+            "imgLocation": "MetLife Stadium",
+            "description": "Stadium Series Game, Islander vs Rangers, Rangers won 6-5 in OT",
+            "date": "02/18/2024"
         },
         {
-            "imgPath": "vacationImages/bermuda.jpg",
-            "imgLocation": "Bermuda",
-            "description": "Horseshoe Bay",
-            "date": "None"
+            "imgPath": "myImages/slides/IDconcert1.jpg",
+            "imgLocation": "PNC Bank & Arts Center",
+            "description": "Imagine Dragons Concert",
+            "date": "08/18/2022"
         },
         {
-            "imgPath": "vacationImages/bermudacaves.JPG",
-            "imgLocation": "Bermuda Cave",
-            "description": "Crystal Cave",
-            "date": "05/22/2017"
+            "imgPath": "myImages/slides/seniorAssassinElim.jpg",
+            "imgLocation": "Dunkin Donuts",
+            "description": "Senior Assassin elimination",
+            "date": "05/07/2024"
         },
         {
             "imgPath": "vacationImages/bermudanight.jpg",
