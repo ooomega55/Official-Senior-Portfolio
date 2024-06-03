@@ -120,6 +120,7 @@ body.green{
 
 .bgabout{
 	background-color: #D2DE32;
+	font-size: 20px;
 }
 
 .bgabout.lime{
@@ -136,7 +137,11 @@ body.green{
 }
 
 .bgBar{
-	background-color: #FFFFDD;
+	color: #ffffdd !important;
+}
+
+.otherbgBar{
+	background-color: #ffffdd !important;
 }
 
 .marginTopBot{

@@ -19,27 +19,27 @@
             "date": "05/07/2024"
         },
         {
-            "imgPath": "vacationImages/bermudanight.jpg",
-            "imgLocation": "Bermuda from the Norwegian Joy",
-            "description": "Nighttime on the Norwegian Joy",
-            "date": "07/13/2023"
+            "imgPath": "myImages/slides/blackbear.JPG",
+            "imgLocation": "Black Bear",
+            "description": "Chilling",
+            "date": "06/03/2024"
         },
         {
-            "imgPath": "vacationImages/goat.jpg",
-            "imgLocation": "Honolulu Zoo",
-            "description": "He gave me the look",
+            "imgPath": "myImages/slides/monty.jpg",
+            "imgLocation": "N/A",
+            "description": "Monty is a good boy",
             "date": "07/05/2019"
         },
         {
-            "imgPath": "vacationImages/honolulu.jpg",
-            "imgLocation": "Honolulu",
-            "description": "Kuhio Beach Park",
-            "date": "07/02/2019"
+            "imgPath": "vacationImages/seal.jpg",
+            "imgLocation": "Sea Life Park Hawaii",
+            "description": "Seal likes taking pictures",
+            "date": "07/05/2019"
         },
         {
-            "imgPath": "vacationImages/kaanapali.jpg",
-            "imgLocation": "Kaanapali",
-            "description": "View of ocean in Maui",
+            "imgPath": "vacationImages/maui.jpg",
+            "imgLocation": "Maui",
+            "description": "View of the beach in Maui",
             "date": "07/12/2019"
         }
   ]
