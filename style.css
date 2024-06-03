@@ -31,9 +31,17 @@ body{
 	transform: translate(-50%, 50%);
 }
 
-.fishMode{
-	color: rgb(109, 0, 0);
+.fishMode1.fishMode2{
 	font-weight: bold;
+	font-size: 50px;
+}
+
+.fishMode1{
+	color: blue;
+}
+
+.fishMode2{
+	color: lime;
 }
 
 body.green{
