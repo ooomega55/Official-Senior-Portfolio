@@ -126,6 +126,11 @@ body.green{
 	background-color: #7cce1f;
 }
 
+.active{
+	font-weight: bold;
+	color: white !important;
+}
+
 .bgabout{
 	background-color: #D2DE32;
 	font-size: 20px;
